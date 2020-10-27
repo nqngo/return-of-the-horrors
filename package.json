@@ -1,0 +1,15 @@
+{
+  "name": "return-of-the-horrors",
+  "version": "0.1.0",
+  "description": "Return of the Horrors website",
+  "main": "index.js",
+  "repository": "git@github.com:nqngo/return-of-the-horrors.git",
+  "author": "Nhat Ngo <me@nqngo.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html"
+  },
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
